@@ -1,0 +1,36 @@
+.container {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+#login {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#login input {
+  outline: none;
+  height: 30px;
+  line-height: 25px;
+  font-size: 24px;
+}
+
+.form-wrapper div {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.login-btn {
+  width: 100px;
+  height: 25px;
+}
